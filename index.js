@@ -1,10 +1,12 @@
 
+// Desafio do felipão Classificador de Nivel RPG 
 
-// Desafio Classificador de nível de Herói
 
-let nome = "Alan";
+let nome = "Jabaquara";
 let xp = 7500;
-let nivel = "20";
+let nivel = "";
+let classe = "Arqueiro"
+let equipamento = "Arco da Luz";
 
 if (xp < 1000) {
     nivel = "Ferro";
@@ -24,6 +26,4 @@ if (xp < 1000) {
     nivel = "Radiante";
 }
 
-console.log(`O Herói de nome ${nome} está no nível de ${nivel}`);
-
-// ...existing code...
+console.log(`O Herói de nome ${nome} está no nível de ${nivel} de classe ${classe} com ${xp} Pontos de XP e um equipamento ${equipamento}.`)
